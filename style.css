@@ -1,0 +1,62 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  color: #ddbb74;
+  background-color: #343a40;
+}
+
+.yt{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ytFrame{
+    border: solid 4px #ddbb74;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.rafaPony {
+    position: absolute;
+    top: 25%;
+    left: 71%;
+}
+
+.patreon{
+    position: absolute;
+    left: 50%;
+    top: 11%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 12px;
+    border: solid 1px #f96854;
+    color: #f96854;
+    transition: all 0.4s ease-in-out;
+}
+.patreon:hover {
+    background-color: #f96854;
+    transition: all 0.2s ease-in;
+    color: #fff;
+    cursor: pointer;
+}
+
+.supMe {
+    position: relative;
+    left: 30%;
+    top: -3px;
+}
+
+.pIcon {
+    position: relative;
+    top: -50px;
+    width: 40px;
+}
